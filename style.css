@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define fonts */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About section styles */
+#about {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+/* Skills section styles */
+#skills {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
